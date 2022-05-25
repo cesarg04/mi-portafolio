@@ -23,7 +23,10 @@ module.exports = {
     extend: {
       colors:{
         backicons: '#F7F8FC',
-        bluepage: '#53ADC0'
+        bluepage: '#53ADC0',
+        primarybutton: '#EEF2FF',
+        hoverbutton: '#6265F1',
+        h1Secondary: '#9CA3AF'
         
       }, 
       fontFamily:{

@@ -8,9 +8,37 @@
 @layer components {
 .navigation{
     @apply grid font-rubik cursor-pointer justify-center transition transition-all duration-1000; 
+
 }
 .lists{
     
 }
 
+.h1-home{
+    @apply font-rubik font-bold text-5xl text-center;
 }
+
+.download{
+    font-size: 1.125rem;
+}
+
+.btn-down:hover{
+    @apply bg-hoverbutton;
+
+}
+.btn-down:hover span{
+    @apply text-white;
+}
+
+.icons-bg{
+    @apply bg-backicons border cursor-pointer rounded self-center hover:text-hoverbutton    ;
+}
+
+.icon-config{
+    @apply mx-2 my-2 w-8 h-8;
+}
+
+}
+
+
+
