@@ -26,7 +26,8 @@ module.exports = {
         bluepage: '#53ADC0',
         primarybutton: '#EEF2FF',
         hoverbutton: '#6265F1',
-        h1Secondary: '#9CA3AF'
+        h1Secondary: '#9CA3AF',
+        projectsh1: '#1E3851'
         
       }, 
       fontFamily:{

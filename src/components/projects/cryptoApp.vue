@@ -1,0 +1,3 @@
+<template>
+    crypto app
+</template>

@@ -66,7 +66,7 @@ const nav = [
         </div>
 
         <div>
-            <nav class="flex flex-col md:hidden" :class="{'hidden': toggle}" >
+            <nav class="flex flex-col md:hidden " :class="{'hidden': toggle}" >
             <router-link 
             v-for="item in nav" 
             :key="item.id" 
