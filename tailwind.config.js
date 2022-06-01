@@ -27,7 +27,8 @@ module.exports = {
         primarybutton: '#EEF2FF',
         hoverbutton: '#6265F1',
         h1Secondary: '#9CA3AF',
-        projectsh1: '#1E3851'
+        projectsh1: '#1E3851',
+        primary: '#6C63FF'
         
       }, 
       fontFamily:{

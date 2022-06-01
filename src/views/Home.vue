@@ -20,7 +20,7 @@ components: {
       <div class="flex flex-col">
         <!-- TITLE -->
         <div class="md:w-34 mb-10 md:max-h-50">
-          <h1 class="h1-home">Hola, soy Cesar Garcia Dev</h1>
+          <h1 class="h1-home ">Hola, soy Cesar Garcia Dev</h1>
           <h1 class="h1-home text-h1Secondary">FullStack developer</h1>
         </div>
         <!-- Button download CV -->
