@@ -28,7 +28,9 @@ module.exports = {
         hoverbutton: '#6265F1',
         h1Secondary: '#9CA3AF',
         projectsh1: '#1E3851',
-        primary: '#6C63FF'
+        primary: '#6C63FF',
+        carl: '#102D44',
+        inputsbg: '#E8F0FE'
         
       }, 
       fontFamily:{
