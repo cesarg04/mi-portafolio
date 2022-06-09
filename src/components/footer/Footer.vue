@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 <template>
   <div class="mt-10 grid grid-rows-2 justify-items-center">
     <div class="text-center mb-10">
-      <h1 class="font-semibold text-3xl">Sígueme</h1>
+      <h1 class="font-semibold text-3xl dark:text-white">Sígueme</h1>
     </div>
 
     <div class="grid grid-cols-3 justify-items-center w-52">
@@ -29,7 +29,7 @@ import { Icon } from "@iconify/vue";
     </div>
 
     <div class="flex flex-col mt-10 text-center">
-      <span class="text-xl">© Copyright. 2022 CesarGarciaDev</span>
+      <span class="text-xl dark:text-white">© Copyright. 2022 CesarGarciaDev</span>
     </div>
 
   </div>

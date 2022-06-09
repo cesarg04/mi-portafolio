@@ -3,6 +3,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     screens: {
       'sm': '640px',
@@ -30,7 +31,9 @@ module.exports = {
         projectsh1: '#1E3851',
         primary: '#6C63FF',
         carl: '#102D44',
-        inputsbg: '#E8F0FE'
+        inputsbg: '#E8F0FE',
+        bgDark: '#0D2438',
+        bgSecondaryDark: '#1E3851'
         
       }, 
       fontFamily:{

@@ -38,3 +38,13 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+h1{
+  @apply dark:text-white
+}
+span{
+  @apply dark:text-hoverbutton
+}
+
+</style>

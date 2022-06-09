@@ -6,11 +6,11 @@ import { projectsWork, projectPersonal } from "../composables/projects";
 <template>
   <div class="px-4">
     <div>
-      <h1 class="font-bold text-4xl text-center font-rubik">
+      <h1 class="font-bold text-4xl text-center font-rubik dark:text-white">
         Portafolio de Proyectos
       </h1>
       <h1
-        class="text-center foont-rubik text-xl text-h1Secondary font-semibold"
+        class="text-center foont-rubik text-xl text-h1Secondary font-semibold dark:text-white"
       >
         Algunos proyectos que realizado
       </h1>
@@ -21,7 +21,7 @@ import { projectsWork, projectPersonal } from "../composables/projects";
           <div class="px-4">
             <img :src="item.logo" :alt="item.tittle" class="rounded boder" />
           </div>
-          <h1 class="h1-cards">{{ item.tittle }}</h1>
+          <h1 class="h1-cards dark:text-white">{{ item.tittle }}</h1>
           <div class="mb-10">
             <h2
               v-for="index in item.tecnologys"
@@ -44,7 +44,7 @@ import { projectsWork, projectPersonal } from "../composables/projects";
           <div class="">
             <img :src="item.logo" :alt="item.tittle" class="rounded boder" />
           </div>
-          <h1 class="h1-cards">{{ item.tittle }}</h1>
+          <h1 class="h1-cards dark:text-white">{{ item.tittle }}</h1>
           <div class="mb-10">
             <h2
               v-for="index in item.tecnologys"
@@ -53,7 +53,7 @@ import { projectsWork, projectPersonal } from "../composables/projects";
                 font-semibold
                 text-1xl text-center
                 font-rubik
-                text-h1Secondary
+                text-white
               "
             >
               {{ index }}
@@ -75,5 +75,9 @@ h2 {
 }
 .cards{
     @apply overflow-hidden shadow-xl mt-20 border-t rounded-md md:w-72 xl:w-72 md:mx-6 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
+}
+
+h2{
+  @apply text-h1Secondary
 }
 </style>

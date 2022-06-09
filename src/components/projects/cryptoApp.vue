@@ -4,17 +4,17 @@ import { Icon } from "@iconify/vue";
 
 <template>
   <div>
-    <h1 class="font-rubik font-semibold text-3xl text-center">Crypto App</h1>
+    <h1 class="font-rubik font-semibold text-3xl text-center dark:text-white">Crypto App</h1>
 
     <div class="flex flex-row mt-6:">
       <div class="flex items-center sm:mx-4">
-        <Icon icon="akar-icons:clock" class="text-xl" />
-        <span class="font-rubik mx-2 text-xl"> 12, Sept, 2021</span>
+        <Icon icon="akar-icons:clock" class="text-xl dark:text-white" />
+        <span class="font-rubik mx-2 text-xl dark:text-white"> 12, Sept, 2021</span>
       </div>
 
       <div class="flex items-center sm:mx-4">
-        <Icon icon="akar-icons:tag" class="text-xl" />
-        <span class="font-rubik mx-2 text-xl">Frontend Developer</span>
+        <Icon icon="akar-icons:tag" class="text-xl dark:text-white" />
+        <span class="font-rubik mx-2 text-xl dark:text-white">Frontend Developer</span>
       </div>
     </div>
 
@@ -31,18 +31,18 @@ import { Icon } from "@iconify/vue";
     <div class="mt-6 md:grid md:grid-cols-3">
       <div>
         <div class="flex flex-col">
-          <h1 class="h1">Proyecto Personal</h1>
+          <h1 class="h1 dark:text-white">Proyecto Personal</h1>
         </div>
 
         <div class="mt-6">
-          <h1 class="h1">Tecnologias impementadas</h1>
-          <span>Vue Js, Bootstrap, Axios</span>
+          <h1 class="h1 dark:text-white">Tecnologias impementadas</h1>
+          <span class="dark:text-white">Vue Js, Bootstrap, Axios</span>
         </div>
       </div>
 
       <div class="mt-6 md:col-span-2 mx-10">
-        <h1 class="h1">Acciones Realizadas</h1>
-        <p class="font-rubik text-xl">
+        <h1 class="h1 dark:text-white">Acciones Realizadas</h1>
+        <p class="font-rubik text-xl dark:text-white">
           Es una pequeña aplicación construida e n Vue js, lo cual tiene como
           función es recopilar los precios actuales de las principales
           criptomonedas.

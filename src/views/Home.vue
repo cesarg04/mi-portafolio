@@ -1,6 +1,10 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import Skils from "../components/skils/Skils.vue";
+import themeStore from '../store';
+
+
+const Theme = themeStore();
 
 components: {
   Skils;
@@ -20,7 +24,7 @@ components: {
       <div class="flex flex-col">
         <!-- TITLE -->
         <div class="md:w-34 mb-10 md:max-h-50">
-          <h1 class="h1-home ">Hola, soy Cesar Garcia Dev</h1>
+          <h1 class="h1-home dark:text-white">Hola, soy Cesar Garcia Dev</h1>
           <h1 class="h1-home text-h1Secondary">FullStack developer</h1>
         </div>
         <!-- Button download CV -->
@@ -37,6 +41,9 @@ components: {
               delay-150
               hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500
               duration-300
+              dark:bg-bgSecondaryDark
+              dark:border-bgDark
+              dark:hover:bg-indigo-500
             "
           >
             <span
@@ -63,7 +70,10 @@ components: {
         </div>
       </div>
       <div class="w-full mt-4 md:mt-1 md:col-span-2">
-        <img src="../assets/fondo/developer.1e987b35.svg" alt="" class="" />
+        
+        <img v-if="Theme.theme === 'light' " src="../assets/fondo/developer.1e987b35.svg" alt="" class="" />
+        <img v-else src="../assets/fondo/developer-dark.svg" alt="developer">
+
       </div>
     </div>
 

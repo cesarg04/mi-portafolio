@@ -15,7 +15,7 @@
 }
 
 .h1-home{
-    @apply font-rubik font-bold text-5xl text-center;
+    @apply font-rubik font-bold text-5xl text-center ;
 }
 
 .download{
@@ -28,7 +28,8 @@
 }
 
 .icons-bg{
-    @apply bg-backicons border cursor-pointer rounded self-center hover:text-hoverbutton ;
+    @apply bg-backicons border dark:border-bgSecondaryDark cursor-pointer rounded self-center hover:text-hoverbutton dark:bg-bgSecondaryDark dark:text-white
+    dark:hover:text-hoverbutton;
 }
 
 .icon-config{
@@ -36,6 +37,7 @@
 }
 
 }
+
 
 
 
