@@ -13,14 +13,12 @@ components: {
 
 <template>
   <div class="w-full">
-    <div
-      class="
+    <div class="
         grid
         text-3xl
         justify-items-center
         md:grid md:grid-cols-3 md:mt-10 md:gap-x-1
-      "
-    >
+      ">
       <div class="flex flex-col">
         <!-- TITLE -->
         <div class="md:w-34 mb-10 md:max-h-50">
@@ -29,8 +27,7 @@ components: {
         </div>
         <!-- Button download CV -->
         <div class="flex justify-center">
-          <button
-            class="
+          <button class="
               bg-primarybutton
               rounded-full
               border
@@ -44,34 +41,31 @@ components: {
               dark:bg-bgSecondaryDark
               dark:border-bgDark
               dark:hover:bg-indigo-500
-            "
-          >
-            <span
-              class="
+            ">
+            <a href="https://drive.google.com/file/d/18XoUsTQLGY7C9rWJnN02hSm70eBXzarf/view?usp=sharing" target="_blank">
+              <span class="
                 material-symbols-outlined
                 align-middle
                 text-h1Secondary text-md
                 mr-2
-              "
-              >download_for_offline</span
-            >
-            <span
-              class="
+              ">download_for_offline</span>
+              <span class="
                 font-rubik
                 align-middle
                 text-h1Secondary
                 download
                 ease-in
                 duration-300
-              "
-              >Descargar CV</span
-            >
+              ">Descargar CV</span>
+
+            </a>
+
           </button>
         </div>
       </div>
       <div class="w-full mt-4 md:mt-1 md:col-span-2">
-        
-        <img v-if="Theme.theme === 'light' " src="../assets/fondo/developer.1e987b35.svg" alt="" class="" />
+
+        <img v-if="Theme.theme === 'light'" src="../assets/fondo/developer.1e987b35.svg" alt="" class="" />
         <img v-else src="../assets/fondo/developer-dark.svg" alt="developer">
 
       </div>

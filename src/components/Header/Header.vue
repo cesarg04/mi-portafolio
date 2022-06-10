@@ -77,7 +77,8 @@ const nav = [
                 </nav>
 
                 <div class="bg-backicons border cursor-pointer rounded self-center mr-2 dark:bg-bgSecondaryDark dark:border-bgDark" @click="updateTheme">
-                    <span class="material-symbols-outlined mx-2 my-2 dark:text-white">dark_mode</span>
+                    <span class="material-symbols-outlined mx-2 my-2" v-if="store.theme === 'light'">dark_mode</span>
+                    <span class="material-symbols-outlined mx-2 my-2 dark:text-white" v-else>light_mode</span>
                 </div>  
         </div>
 
