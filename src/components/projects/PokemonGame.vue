@@ -36,7 +36,7 @@ import { Icon } from "@iconify/vue";
 
         <div class="mt-6">
           <h1 class="h1 dark:text-white">Tecnologias impementadas</h1>
-          <span>Vue Js, Bootstrap, Axios</span>
+          <span class="dark:text-white">Vue Js, Bootstrap, Axios</span>
         </div>
       </div>
 

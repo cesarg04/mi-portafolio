@@ -1,6 +1,7 @@
 import mediamanagerLogo from '../assets/projects/Mediamanager/logo-mediamanager.png';
 import cryptoLogo from '../assets/projects/Crypto-app/logo.png'
 import pokemonLogo from '../assets/projects/Pokemon/PokemonLogo.png'
+import todolistLogo from '../assets/projects/Todolist/todolist.png'
 
 export const projectsWork = [
     {
@@ -29,6 +30,13 @@ export const projectPersonal = [
         description: 'Un pequeño juego que consiste en adivinar el pokemon',
         logo: pokemonLogo,
         to: '/proyectos/PokemonGame'
+    },
+    {
+        tittle: 'Todolist',
+        tecnologys: ['Vue Js', 'Tailwindcss','MongoDb', 'Express js',],
+        description: 'Es una aplicacion en la que se puede registrar un usuario, y este puede almacenar sus tareas diarias, el usuario puede crear, modificar, actualizar y eliminar tareas con facilidad.',
+        logo: todolistLogo,
+        to: '/proyectos/Todolist' 
     }
 ]
 

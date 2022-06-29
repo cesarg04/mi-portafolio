@@ -42,7 +42,7 @@ import { projectsWork, projectPersonal } from "../composables/projects";
       <div v-for="item in projectPersonal" :key="item" class="cards">
         <router-link :to="item.to">
           <div class="">
-            <img :src="item.logo" :alt="item.tittle" class="rounded boder" />
+            <img :src="item.logo" :alt="item.tittle" class="rounded boder w-full   h-40" />
           </div>
           <h1 class="h1-cards dark:text-white">{{ item.tittle }}</h1>
           <div class="mb-10">

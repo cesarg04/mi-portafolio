@@ -7,6 +7,7 @@ import Conoceme from "../views/Conoceme.vue"
 import Mediamanager from '../components/projects/Mediamanager.vue'
 import PokemonGame from '../components/projects/PokemonGame.vue'
 import CryptoApp from '../components/projects/CryptoApp.vue'
+import Todolist from '../components/projects/Todolist.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     name: "Crypto App",
     component: CryptoApp,
 
+  },
+  {
+    path: "/proyectos/Todolist",
+    name: "TodoList",
+    component: Todolist
   },
   {
     path: "/contacto",

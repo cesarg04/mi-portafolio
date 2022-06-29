@@ -9,7 +9,6 @@ const themeStore = defineStore({
 
     actions: {
         setTheme(newTheme){
-            console.log(`Store set Theme to: ${newTheme}`);
             localStorage.setItem('theme', newTheme);
             if (newTheme === 'light') {
                 document.querySelector('html').classList.remove('dark');
