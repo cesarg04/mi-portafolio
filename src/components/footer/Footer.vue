@@ -3,7 +3,7 @@ import { Icon } from "@iconify/vue";
 </script>
 
 <template>
-  <div class="mt-10 grid grid-rows-2 justify-items-center">
+  <div class="mt-10 grid grid-rows-2 justify-items-center pb-5">
     <div class="text-center mb-10">
       <h1 class="font-semibold text-3xl dark:text-white">Sígueme</h1>
     </div>

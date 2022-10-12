@@ -47,7 +47,7 @@ import skils from "../../composables/skils";
 
 <style scoped>
 .cards{
-    @apply overflow-hidden shadow-xl mt-20 border-t rounded-md md:w-72 xl:w-72 md:mx-6 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
+    @apply overflow-hidden py-2 shadow-xl mt-20 border-t rounded-md md:w-72 xl:w-72 md:mx-6 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
     @apply dark:border-t-bgSecondaryDark
 }
 

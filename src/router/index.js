@@ -16,20 +16,26 @@ const routes = [
     component: Home,
     meta:{
       enterClass: 'animate__animated animate__fadeInDown',
-      leaveClass: 'animate__animated animate__fadeOutUp'
+      leaveClass: 'animate__animated animate__fadeOutUp',
+      title: 'cesar garcia dev'
     }
   },
   {
     path: "/proyectos",
     name: "Proyectos",
     component: Proyectos,
+    meta:{
+      title: 'Proyectos de cear garcia dev'
+    }
 
   },
   {
     path: "/proyectos/mediamanager",
     name: "Mediamanager",
     component: Mediamanager,
-
+    meta: {
+      title: 'mediamanager'
+    }
     
   },
   {
