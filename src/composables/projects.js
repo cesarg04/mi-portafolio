@@ -2,6 +2,7 @@ import mediamanagerLogo from '../assets/projects/Mediamanager/logo-mediamanager.
 import cryptoLogo from '../assets/projects/Crypto-app/logo.png'
 import pokemonLogo from '../assets/projects/Pokemon/PokemonLogo.png'
 import todolistLogo from '../assets/projects/Todolist/todolist.png'
+import prestamigoLogo from '../assets/projects/Prestamigo/prestamigologo.png'
 
 export const projectsWork = [
     {
@@ -37,6 +38,14 @@ export const projectPersonal = [
         description: 'Es una aplicacion en la que se puede registrar un usuario, y este puede almacenar sus tareas diarias, el usuario puede crear, modificar, actualizar y eliminar tareas con facilidad.',
         logo: todolistLogo,
         to: '/proyectos/Todolist' 
+    },
+    {
+        tittle: 'Prestamigo',
+        role: 'Frontend Developer',
+        tecnologys: ['Ionic', 'Vue Js', 'React Js', 'Pinia', 'Typescript'],
+        description: 'Es una aplicacion movil de gestion de prestamos hecha en ionic con vue, el dashboard esta construido en react',
+        logo: prestamigoLogo,
+        to: '/proyectos/prestamigo'
     }
 ]
 
