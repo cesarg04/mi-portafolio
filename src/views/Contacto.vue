@@ -107,7 +107,7 @@ const sendEmail = async () => {
 
                 <div class="flex items-center my-2">
                     <Icon icon="carbon:email" class="text-lg text-black dark:text-white" />
-                    <h1 class="h1contact text-black dark:text-white">elduro2002_@hotmail.com</h1>
+                    <h1 class="h1contact text-black dark:text-white">cesaralbertog47@gmail.com</h1>
                 </div>
 
                 <div class="flex items-center my-2">

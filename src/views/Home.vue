@@ -6,9 +6,6 @@ import themeStore from '../store';
 
 const Theme = themeStore();
 
-components: {
-  Skils;
-}
 </script>
 
 <template>

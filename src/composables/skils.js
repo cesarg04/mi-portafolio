@@ -4,6 +4,10 @@ import vueLogo from '../assets/skils/Vue.js_Logo_2.svg'
 import nodeLogo from '../assets/skils/nodejs-icon.svg'
 import reactLogo from '../assets/skils/React-icon.svg'
 import ionicLogo from '../assets/skils/ionic_Logo.svg'
+import nextLogo from '../assets/skils/nextjs/next-logo.svg'
+import nestjsLogo from '../assets/skils/NestJS.svg'
+import RNlogo from '../assets/skils/react-native.svg'
+import CSharpLogo from '../assets/skils/c_sharp_logo.svg'
 
 const skils = [
     {
@@ -20,7 +24,7 @@ const skils = [
     {
         name: 'ReactJS',
         logo: reactLogo,
-        description: ['Context Api', 'Redux', 'Testing']
+        description: ['Context Api', 'Redux', 'Testing', 'Clean Architecture']
 
     },
     {
@@ -39,6 +43,27 @@ const skils = [
         logo: nodeLogo,
         description: ['Express js', 'MongoDB', 'SQL']
 
+    },
+    {
+        name: 'NextJs',
+        logo: nextLogo,
+        description: ['NextJs 12', 'NextJs 13']
+    },
+    {
+        name: 'NestJs',
+        logo: nestjsLogo,
+        description: ['TypeOrm', 'Services', 'Prisma', 'Auth']
+    },
+    {
+        name: 'React Native',
+        logo: RNlogo,
+        description: ['Android', 'IOS',]
+    },
+
+    {
+        name: 'C#',
+        logo: CSharpLogo,
+        description: ['ASP .NET', 'Entity', '.NET CORE']
     }
 
 ]
