@@ -6,8 +6,9 @@ import Contacto from "../views/Contacto.vue"
 import Conoceme from "../views/Conoceme.vue"
 import Mediamanager from '../components/projects/Mediamanager.vue'
 import PokemonGame from '../components/projects/PokemonGame.vue'
-import CryptoApp from '../components/projects/CryptoApp.vue'
+import CryptoApp from '../components/projects/cryptoApp.vue'
 import Todolist from '../components/projects/Todolist.vue'
+import Prestamigo from '../components/projects/Prestamigo.vue'
 
 const routes = [
   {
@@ -67,6 +68,12 @@ const routes = [
     component: Conoceme,
 
   },
+  {
+    path: '/proyectos/prestamigo',
+    name: 'Prestamigo',
+    component: Prestamigo
+  },
+  
   { path: '/:pathMatch(.*)*',
     name: 'Page not Found',
     component: Home,

@@ -6,9 +6,6 @@ import themeStore from '../store';
 
 const Theme = themeStore();
 
-components: {
-  Skils;
-}
 </script>
 
 <template>
@@ -29,6 +26,7 @@ components: {
         <div class="flex justify-center">
           <button class="
               bg-primarybutton
+              h-15
               rounded-full
               border
               px-3
@@ -36,13 +34,15 @@ components: {
               transition
               ease-in-out
               delay-150
+              pb-2
               hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500
               duration-300
               dark:bg-bgSecondaryDark
               dark:border-bgDark
               dark:hover:bg-indigo-500
             ">
-            <a href="https://drive.google.com/file/d/18XoUsTQLGY7C9rWJnN02hSm70eBXzarf/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/18XoUsTQLGY7C9rWJnN02hSm70eBXzarf/view?usp=sharing"
+              target="_blank">
               <span class="
                 material-symbols-outlined
                 align-middle
