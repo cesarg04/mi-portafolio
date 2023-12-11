@@ -3,6 +3,7 @@ import cryptoLogo from '../assets/projects/Crypto-app/logo.png'
 import pokemonLogo from '../assets/projects/Pokemon/PokemonLogo.png'
 import todolistLogo from '../assets/projects/Todolist/todolist.png'
 import prestamigoLogo from '../assets/projects/Prestamigo/prestamigologo.png'
+import CorpbanckLogo from '../assets/projects/corpbanck/corpbanck.png'
 
 export const projectsWork = [
     {
@@ -14,6 +15,16 @@ export const projectsWork = [
         contac: 'matteoraggi@gmail.com',
         logo: mediamanagerLogo,
         to: '/proyectos/mediamanager'
+    },
+    {
+        title: 'Corpbanck CRM',
+        role: 'Frontend Developer',
+        tecnologys: ['ReactJS', 'Redux Toolkit', 'React Query', 'Bootstrap', 'React Hook Form'],
+        description: 'Es un CRM de administracion de una emporesa inmobiliaria, su funcion es administrar todos los porcedimientos de la eempresa tales com ventas, clientes, contactos etc. ',
+        company: 'Corpbanck',
+        contac: 'ventas@corpbanck.com.do',
+        logo: CorpbanckLogo,
+        to: '/proyectos/corpbanck',
     }
 ]
 
