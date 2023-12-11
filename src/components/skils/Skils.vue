@@ -1,5 +1,5 @@
 <script setup>
-import skils from "../../composables/skils";
+import skils from "../../composables/skils.js";
 </script>
 
 <template>
