@@ -13,7 +13,7 @@ const skils = [
     {
         name: 'JavaScript',
         logo: jsLogo,
-        description: ['ES6/ES7', 'JQUERY', 'Fetch', 'Axios']
+        description: ['TypeScript', 'ES6/ES7', 'JQUERY', 'Fetch', 'Axios']
 
     },
     {

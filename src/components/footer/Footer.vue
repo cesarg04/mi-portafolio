@@ -1,5 +1,9 @@
 <script setup>
 import { Icon } from "@iconify/vue";
+
+const year = new Date().getFullYear()
+
+
 </script>
 
 <template>
@@ -10,7 +14,7 @@ import { Icon } from "@iconify/vue";
 
     <div class="grid grid-cols-3 justify-items-center w-52">
       <div class="icons-bg">
-        <a href="https://github.com/elduro2002" target="_blank">
+        <a href="https://github.com/cesarg04" target="_blank">
           <Icon icon="akar-icons:github-fill" class="icon-config" />
         </a>
       </div>
@@ -29,7 +33,7 @@ import { Icon } from "@iconify/vue";
     </div>
 
     <div class="flex flex-col mt-10 text-center">
-      <span class="text-xl dark:text-white">© Copyright. 2022 CesarGarciaDev</span>
+      <span class="text-xl dark:text-white">© Copyright. {{ year }} CesarGarciaDev</span>
     </div>
 
   </div>
