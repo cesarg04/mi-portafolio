@@ -41,7 +41,7 @@ const Theme = themeStore();
               dark:border-bgDark
               dark:hover:bg-indigo-500
             ">
-            <a href="https://drive.google.com/file/d/18XoUsTQLGY7C9rWJnN02hSm70eBXzarf/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1DkBuRqwo_XeL6CcZw-Aov-76BguJrurQ/view?usp=drive_link"
               target="_blank">
               <span class="
                 material-symbols-outlined
